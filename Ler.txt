@@ -1,0 +1,8 @@
+O objetivo é conseguir retornor um arquivo valido no formato json, porém o retorno do 
+que vem do docker é zoado;
+
+Na imagem tipo de retone é o que vem do docker, "bruto", sem tratamento.
+
+Na imagem json é o json que ele retorno, porem está errado, o zabbix não interpreta
+
+teria que ser "{NAME}": ["apache01"], o que ta retornado é [u'/apache01']
